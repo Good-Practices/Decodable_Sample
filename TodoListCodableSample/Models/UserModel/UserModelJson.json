@@ -1,0 +1,23 @@
+{
+    "roomName": "Tech Support",
+    "users": [
+        {
+            "name": "Onur",
+            "surname": "Cantay",
+            "birthday": "2017-11-16T02:02:55.000-08:00"
+        },{
+            "name": "Beytullah",
+            "surname": "Bovatekin",
+            "birthday": "2017-11-16T02:02:55.000-08:00"
+        },{
+            "name": "Ege",
+            "surname": "Kuzubasioglu",
+            "birthday": "2017-11-16T02:02:55.000-08:00"
+        },{
+            "name": "Acelya",
+            "surname": "Ozkan",
+            "birthday": "2017-11-16T02:02:55.000-08:00"
+        }
+    ]
+
+}

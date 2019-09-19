@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Onur",
+        "surname": "Cantay",
+        "birthday": "2017-11-16T02:02:55.000-08:00"
+    },
+    {
+        "name": "Onur",
+        "accessLevel": 11,
+        "supervisor": "Rogier"
+    },
+    {
+        "name": "Andrei",
+        "accessLevel": 10
+    },
+    {
+        "name": "Ege",
+        "surname": "Kuzubasioglu",
+        "birthday": "2017-11-16T02:02:55.000-08:00"
+    }
+]
