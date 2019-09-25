@@ -152,3 +152,8 @@ Don't need to make the object havier then it is. if struct conforms more then 1 
     2. if the names are the same we dont provide CodingKeys but if the names are different we can provide the names as String so we can keep the code structured based on Swift Guide Lines
 5. User List
     1. this example is for nested json responses so we can also provide nested type of structures do decode
+
+# Contributers
+[<kbd>
+<img width="50" alt="onurhuseyincantay" src="https://avatars0.githubusercontent.com/u/24936965?s=460&v=4">
+</kbd>](https://github.com/onurhuseyincantay)
