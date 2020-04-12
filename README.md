@@ -135,8 +135,8 @@ Good Practices using Codable/Decodable
 }
 ```
 ### Decodables
-As Seen above we have different patterns that the json response follows so the question comnes up how do we do the best json decoding with less code and more efficient way.
-before we continue we should know that `Codable` is a Typealias which is `Decodable & Encodable` so when we want to parse data from json to object and vice verse we need to implement `Codable` but if we know that the object it self will never parsed to json then Decodable Protocol would be enough.
+As Seen above we have different patterns that the json response follows so the question comes up how do we do the best json decoding with less code and more efficient way.
+before we continue we should know that `Codable` is a Typealias which is `Decodable & Encodable` so when we want to parse data from json to object and wice verse we need to implement `Codable` but if we know that the object it self will never parsed to json then Decodable Protocol would be enough.
 Don't need to make the object havier then it is. if struct conforms more then 1 protocol it means that the struct itself is not anymore value type so it turns into a reference type.
 
 # Good Things To Remember
@@ -152,8 +152,3 @@ Don't need to make the object havier then it is. if struct conforms more then 1 
     2. if the names are the same we dont provide CodingKeys but if the names are different we can provide the names as String so we can keep the code structured based on Swift Guide Lines
 5. User List
     1. this example is for nested json responses so we can also provide nested type of structures do decode
-
-# Contributers
-[<kbd>
-<img width="50" alt="onurhuseyincantay" src="https://avatars0.githubusercontent.com/u/24936965?s=460&v=4">
-</kbd>](https://github.com/onurhuseyincantay)
